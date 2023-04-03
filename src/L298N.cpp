@@ -16,8 +16,8 @@ L298N::L298N(short int pinEnable, short int pinInput1, short int pinInput2)
   this->speed = 0;
   // initialize pins
   pinMode(this->pinEnable, OUTPUT);
-  pinMode(this->pinInput, OUTPUT);
-  pinMode(this->pinInput, OUTPUT);
+  pinMode(this->pinInput1, OUTPUT);
+  pinMode(this->pinInput2, OUTPUT);
 }
 
 /**
